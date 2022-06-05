@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Média de Notas escolares:
+        </h1>
+    </header>
+
+    <section>
+        <div id = 'dados'>
+           <p>Digite seu Nome: <input type="text" name="nome" id="txtnome" placeholder="Nome..."></p>
+           
+           <p>Digite sua primeira nota: <input type="number" name="nota1" id="txtnota1" placeholder="Nota..."></p>
+           
+           <p>Digite sua segunda nota : <input type="number" name="nota2" id="txtnota2" placeholder="Nota..."></p>
+           
+           <p>Digite sua terceira nota: <input type="number" name="nota3" id="txtnota3" placeholder="Nota..."></p>
+
+           <p><input id = 'botao' type="button" value="Calcular Média" onclick="calcular()">
+              <input id = 'botao2' type="button" value="Limpar" onclick="limpar()">
+           </p>
+        </div>
+
+        <div id = 'res'>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
